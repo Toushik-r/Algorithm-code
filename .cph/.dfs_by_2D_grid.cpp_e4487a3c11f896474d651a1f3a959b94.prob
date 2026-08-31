@@ -1,0 +1,1 @@
+{"name":"Local: dfs_by_2D_grid","url":"a:\\vs code\\algo_by_phitron\\dfs_by_2D_grid.cpp","tests":[{"id":1788188360543,"input":"3 4\n. . . .\n. . . .\n. . . .\n1 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"a:\\vs code\\algo_by_phitron\\dfs_by_2D_grid.cpp","group":"local","local":true}
