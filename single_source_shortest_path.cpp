@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 vector<vector<int>> adj_list(1005);
 vector<bool> vis(1005,false);
 vector<int> dis(1005,-1);
