@@ -1,0 +1,1 @@
+{"name":"Local: input_weighted_graph","url":"a:\\vs code\\algo_by_phitron\\input_weighted_graph.cpp","tests":[{"id":1788876619494,"input":"5 8\n0 1 10\n0 2 7\n0 3 4\n1 2 1\n2 3 1\n2 4 5\n3 4 5\n1 4 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"a:\\vs code\\algo_by_phitron\\input_weighted_graph.cpp","group":"local","local":true}
