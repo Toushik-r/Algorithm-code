@@ -12,7 +12,6 @@ void solve()
         cin >> a[i];
     }
 
-    // Shobcheye boro duiti element er index khuje ber kora
     int max1_idx = -1, max2_idx = -1;
 
     for (int i = 0; i < n; i++)
@@ -28,7 +27,6 @@ void solve()
         }
     }
 
-    // Chhoto index age print korte hobe
     int left_idx = min(max1_idx, max2_idx);
     int right_idx = max(max1_idx, max2_idx);
 

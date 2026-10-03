@@ -11,7 +11,6 @@ int find(int x)
         return x;
     }
 
-    // Path compression jog kora holo ebong extra cout shorano holo
     return par[x] = find(par[x]);
 }
 
@@ -43,11 +42,10 @@ int main()
     int n, e;
     cin >> n >> e;
 
-    // 1-based indexing er jonno size n + 1
     par.assign(n + 1, -1);
     dsu_group.assign(n + 1, 1);
 
-    int cycle_edges = 0; // Koyti edge cycle toiri kore tar count
+    int cycle_edges = 0;
 
     while (e--)
     {
@@ -57,12 +55,11 @@ int main()
         int l2 = find(j);
 
         if (l1 == l2)
-            cycle_edges++; // Eki group e thakle edge-ta cycle toiri korbe
+            cycle_edges++;
         else
             dsu_union(i, j);
     }
 
-    // Result print
     cout << cycle_edges << "\n";
 
     return 0;

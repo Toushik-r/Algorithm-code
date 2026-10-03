@@ -1,0 +1,1 @@
+{"name":"Local: DP_Knapsack","url":"a:\\vs code\\algo_by_phitron\\Knapsack\\DP_Knapsack.cpp","tests":[{"id":1791044353072,"input":"4 8\n10 4 7 5\n4 2 3 5\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"a:\\vs code\\algo_by_phitron\\Knapsack\\DP_Knapsack.cpp","group":"local","local":true}
